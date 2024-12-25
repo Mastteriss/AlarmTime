@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    
+    tools:context=".AlarmActivity">
+    
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="Будильник"/>
+    <Button
+        android:id="@+id/alarmtimeStopBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выключить будильник"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/exitBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_gravity="center"/>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/Image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image_860501161612546401924"/>
+</LinearLayout>
